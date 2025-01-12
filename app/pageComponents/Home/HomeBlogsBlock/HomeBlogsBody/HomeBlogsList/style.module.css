@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  /* border: 2px solid red; */
+}
+
+
+.leftHBCard {
+  margin-top: 65px;
+  margin-left: 25px;
+}
+
+.rightHBCard {
+  margin-top: 32px;
+    margin-left: -30px;
+}
+
+.frameLeftBlogImage {
+  border: 1px solid;
+  border-color: #10146e;
+  height: 389px;
+  left: 96px;
+  position: absolute;
+  top: 31px;
+  width: 553px;
+}
+
+.frameRightBlogImage{
+  border: 1px solid;
+  border-color: #10146e;
+  height: 389px;
+  left: 40px;
+  position: absolute;
+  top: -2px;
+  width: 553px;
+}
+
+
+.leftPatternsImage {
+  height: 152px;
+  left: 557px;
+  position: absolute;
+  top: 341px;
+  width: 112px;
+}
+
+.rightPatternsImage {
+  height: 152px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 112px;
+}
