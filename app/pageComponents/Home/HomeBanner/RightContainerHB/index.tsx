@@ -7,14 +7,12 @@ import { sliderImages } from "../data";
 import styles from "./style.module.css";
 
 const RightContainerHB = () => {
-  // State to track current images
   const [imageIndexes, setImageIndexes] = useState({
     left: 0,
     middle: 1,
     right: 2,
   });
 
-  // Automatically update slider every 3 seconds
   useEffect(() => {
     const timer = setInterval(() => {
       setImageIndexes((prevIndexes) => ({
@@ -29,7 +27,6 @@ const RightContainerHB = () => {
     };
   }, []);
 
-  // Get image sources
   const { left, middle, right } = imageIndexes;
   const leftImage = sliderImages[left]?.src;
   const middleImage = sliderImages[middle]?.src;
@@ -37,12 +34,9 @@ const RightContainerHB = () => {
 
   return (
     <div className={styles.rightContainer}>
-      {/* Decorative space pattern */}
       <div className={styles.spaceUpPattern} />
 
-      {/* Slider container */}
       <div className={styles.sliderOuterContainer}>
-        {/* Frame image */}
         <div className={styles.box}>
           <Image
             className={styles.frameImageDesktop}
@@ -57,10 +51,8 @@ const RightContainerHB = () => {
           <div className={styles.frameImageMobile} title="Alum Tec Mobile Frame" />
         </div>
 
-        {/* Overlay and sliding images */}
         <div className={`${styles.box} ${styles.overlay}`}>
           <div className={styles.sliderOuterContainer}>
-            {/* Middle Image */}
             <div className={styles.box}>
               <Image
                 className={`${styles.middleImage} ${styles.active}`}
@@ -74,7 +66,6 @@ const RightContainerHB = () => {
               />
             </div>
 
-            {/* Left Image */}
             <div className={`${styles.box} ${styles.overlay}`}>
               <Image
                 className={`${styles.leftImage} ${styles.active}`}
@@ -87,7 +78,6 @@ const RightContainerHB = () => {
               />
             </div>
 
-            {/* Right Image */}
             <div className={`${styles.box} ${styles.overlay}`}>
               <Image
                 className={`${styles.rightImage} ${styles.active}`}
