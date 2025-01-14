@@ -7,7 +7,7 @@ const ServicesBanner = () => {
           Our Services
         </h1>
         <h3 className="absolute top-0 left-0 right-0 bottom-0 text-base sm:text-lg mt-24 leading-7 sm:leading-8 sm:mt-[35vh] font-thin sm:font-light text-white text-center mx-auto w-10/12">
-          Alumtec Glazing Solution Inc. offers comprehensive engineering
+          Labbyk Glass and Aluminium inc. offers comprehensive engineering
           services, from initial designs that ensure cost-effective solutions,
           to meticulous shop drawings, production drawings, and as-built
           drawings—all meeting or exceeding building codes.

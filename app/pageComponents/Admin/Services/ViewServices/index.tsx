@@ -13,7 +13,7 @@ const ViewServices = () => {
         <TextField
           id="standard-helperText"
           label="Banner Title"
-          defaultValue="OUR SERVICES"
+          // defaultValue="OUR SERVICES"
           helperText={false ? "Title of the service page" : ""}
           variant="standard"
           fullWidth
@@ -28,7 +28,7 @@ const ViewServices = () => {
           label="Banner Description"
           multiline={true}
           rows={4}
-          defaultValue="Alumtec Glazing Solution Inc. offers comprehensive engineering services, from initial designs that ensure cost-effective solutions, to meticulous shop drawings, production drawings, and as-built drawings—all meeting or exceeding building codes.
+          defaultValue="Labbyk Glass and Aluminium inc. offers comprehensive engineering services, from initial designs that ensure cost-effective solutions, to meticulous shop drawings, production drawings, and as-built drawings—all meeting or exceeding building codes.
           "
           helperText={false ? "Description of the services page" : ""}
           variant="standard"

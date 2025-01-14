@@ -6,9 +6,9 @@ import styles from "./style.module.css";
 const HSBBody = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.leftContainer}>
+      {/* <div className={styles.leftContainer}>
         <HSBBodyLeftSide />
-      </div>
+      </div> */}
       <div className={styles.rightContainer}>
         <HSBBodyRightSide />
       </div>

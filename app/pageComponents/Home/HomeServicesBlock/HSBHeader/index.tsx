@@ -17,7 +17,7 @@ const HSBHeader = () => {
                     <h2
                         className={styles.servicesHeading}
                     >
-                        OUR SERVICES
+                        {/* OUR SERVICES */}
                     </h2>
                 </div>
             </div>
