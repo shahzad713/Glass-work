@@ -22,11 +22,14 @@ const LeftContainerHB = () => {
           <span style={highlightStyle}>windows</span>,{" "}
           <span style={highlightStyle}>doors</span>,{" "}
           <span style={highlightStyle}>12mm glass work</span>,{" "}
+          <span style={highlightStyle}>Glass Paper</span>,{" "}
+
           <span style={highlightStyle}>office partitions</span>,{" "}
           <span style={highlightStyle}>stair railings</span>,{" "}
           <span style={highlightStyle}>fiberglass sheds</span>,{" "}
           <span style={highlightStyle}>12mm office fronts</span>,{" "}
           <span style={highlightStyle}>5mm window glass</span>,{" "}
+          
           <span style={highlightStyle}>mirrors</span>, and other professional
           glass installations.
         </h4>
