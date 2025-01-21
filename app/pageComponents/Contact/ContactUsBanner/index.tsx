@@ -7,9 +7,9 @@ const ContactUsBanner = () => {
           Let&rsquo;s help you navigate your next project
         </h1>
         <p className="px-7 sm:px-0 block sm:hidden absolute top-0 left-0 right-0 bottom-0 mt-[16vh] sm:mt-[28vh] w-full sm:w-8/12 text-xs sm:text-lg text-left sm:text-center text-white ml-auto mr-auto">
-          AlumTec Glass and Aluminium offers a wide range of aluminium products
-          and services. All our products comply with Dubai Green Building
-          Regulations, Dubai Civil Defense and Abu Dhabi Estidama Regulations.
+          Labbyk Glass and Aluminium offers a wide range of aluminium products
+          and services. All our products comply with Pakistan Green Building
+          Regulations, Pakistan Civil Defense.
         </p>
       </div>
     </div>
