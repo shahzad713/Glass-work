@@ -44,12 +44,11 @@ export const Footer: FC = (): ReactElement => {
             Head Office
           </h2>
           <p className="text-black font-poppins text-[14px] font-normal tracking-wider">
-            Alumtec Glazing Solutions Inc.
+            Labbyk Glass and Aluminium Inc.
           </p>
           <div className="text-black font-poppins text-[14px] font-normal tracking-wider">
-            Address: 104-3300 Hwy 7, <br />
-            Suit#348 <br />
-            Concord ON. L4K 0G2
+            Address:Bahria Town Lahore            <br />
+
           </div>
         </div>
         <div className="m-0">
@@ -68,7 +67,7 @@ export const Footer: FC = (): ReactElement => {
             );
           })}
         </div>
-        <div className="m-0">
+        {/* <div className="m-0">
           <h2 className="text-black font-poppins text-lg font-semibold tracking-wide">
             Support
           </h2>
@@ -83,7 +82,7 @@ export const Footer: FC = (): ReactElement => {
               </p>
             );
           })}
-        </div>
+        </div> */}
         <div className="m-0">
           <h2 className="text-black font-poppins text-lg font-semibold tracking-wide mt-2">
             Follow us
@@ -127,23 +126,9 @@ export const Footer: FC = (): ReactElement => {
       </div>
       <div className="flex flex-col md:flex-row justify-between mt-2 pb-2">
         <p className="text-black font-poppins text-[14px] font-normal tracking-wider">
-          © 2023 Alumtec Glazing Solutions Inc. All rights reserved.
+          © 2025 Labbyk Glass and Aluminium In. All rights reserved.
         </p>
-        <p>
-          <span className="text-black font-poppins text-[14px] font-normal tracking-wider">
-            Powered by
-          </span>
-          <span className="text-black font-poppins text-[14px] font-normal tracking-wider">
-            {" "}
-            <a
-              href="https://www.github.com/bilalmohib/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Muhammad Bilal Mohib
-            </a>
-          </span>
-        </p>
+
       </div>
     </div>
   );

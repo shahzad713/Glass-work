@@ -25,7 +25,7 @@ const ContactUsPage = () => {
 
       <section
         className="relative"
-        // Yahan par border add karna hai
+      // Yahan par border add karna hai
       >
         <div className="w-full relative min-h-full">
           <div className="w-full">
@@ -60,9 +60,10 @@ const ContactUsPage = () => {
               </div>
             </div>
           </div>
-          <div className="w-12/12 h-[419px] mx-auto z-[10]">
+          <div className="w-12/12 h-[419px] mx-auto z-[9]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5760.014846868028!2d-79.531907!3d43.793459!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2fbb83f6826b%3A0x16706af0c87b8cd8!2s3300%20Hwy%207%20Suite%20368%2C%20Concord%2C%20ON%20L4K%200G2!5e0!3m2!1sen!2sca!4v1692753963018!5m2!1sen!2sca"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d261.3542954007073!2d74.18680012204973!3d31.353667721082896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391855ea96d9328f%3A0x36a6748a80187e3b!2sAluminum%20and%20glass!5e0!3m2!1sen!2s!4v1737493340191!5m2!1sen!2s"
+
               width="100%"
               height="419"
               style={{ border: 0 }}

@@ -37,12 +37,7 @@ const CotactCardItem = ({
             <p className="text-[#191919] text-center font-lato text-base leading-7 my-0">
               <span className="font-bold">Office:</span> {contact}
             </p>
-            <p className="text-[#191919] text-center font-lato text-base leading-7 my-0">
-              <span className="font-bold">Fax:</span> +1 (866)-831-0737
-            </p>
-            <p className="text-[#191919] text-center font-lato text-base leading-7 my-0">
-              <span className="font-bold">Cell:</span> +1 (647)-914-6522
-            </p>
+            
           </>
         )}
       </div>

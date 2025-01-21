@@ -6,7 +6,7 @@ export const contact_data_list: ContactDataType[] = [
     type: "email",
     description:
       "Email us for general queries, including marketing and partnership opportunities.",
-    contact: "info@alumtec.ca",
+    contact: "munirshahzad.dev@gmail.com",
     icon: "/Images/Contact/Icons/email.jxr",
   },
   {
@@ -14,7 +14,7 @@ export const contact_data_list: ContactDataType[] = [
     type: "phone",
     description:
       "Call us to speak to a member of our team. We are always happy to help.",
-    contact: "+1 (905)-508-8777",
+    contact: "+923327265330",
     icon: "/Images/Contact/Icons/phone.jxr",
   },
   {

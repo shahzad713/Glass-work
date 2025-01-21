@@ -1,49 +1,55 @@
-import { Button, Grid } from "@mui/material";
-import styles from "./style.module.css";
+import { Box, ImageList, ImageListItem, IconButton, useMediaQuery, useTheme } from "@mui/material";
 import { imageList } from "./data";
 import { imageListType } from "./types";
 import Image from "next/image";
-import Slider from "react-slick";
+import { ArrowForward, ArrowBack } from "@mui/icons-material"; // For navigation arrows
 
 const HomeProductsList = () => {
-  var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // Check if it's a mobile screen
+
   return (
     <div className="w-full flex flex-col justify-center items-center text-[aliceblue] h-auto mt-14">
-      <div className="grid grid-cols-1 lg:grid-cols-3">
-        {imageList.map((item: imageListType, index: number) => (
-          <div key={index}>
-            <div className="relative">
-              <Image
-                src={item.imageUrl}
-                alt={`Image ${item.id}`}
-                className={`w-[280px] h-auto sm:w-[25rem] lg:w-[20rem] xl:w-[20rem] 2xl:w-96 lg:h-auto ${styles.image}`}
-                title={`Image ${item.id}`}
-                width={372}
-                height={486}
-              />
-              <div className="absolute top-0 left-0 w-full h-full bg-black flex justify-center opacity-0"></div>
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <Button
-        variant="contained"
-        color="primary"
-        className="font-[Sharp Grotesk] text-lg mt-16 font-normal leading-[77px] rounded-sm bg-[#123E95] hover:bg-[#0b46bb] hover:text-white w-40 h-[50px]"
-        onClick={() => {
-          console.log("Button clicked");
+      {/* ImageList Component from MUI for the image display */}
+      <ImageList
+        sx={{
+          width: "100%",
+          height: "auto",
+          display: "flex",
+          justifyContent: "center",
+          overflow: "hidden",
+          gap: 2, // Adds spacing between the items
         }}
+        cols={isMobile ? 1 : 3} // Show 1 image per row on mobile, 3 on larger screens
+        rowHeight={isMobile ? 200 : 300} // Adjust row height for mobile
       >
-        View All
-      </Button>
+        {imageList.map((item: imageListType, index: number) => (
+          <ImageListItem key={index} sx={{ position: "relative" }}>
+            <Image
+              src={item.imageUrl}
+              alt={`Image ${item.id}`}
+              className="object-cover"
+              width={isMobile ? 320 : 300} // Adjust width for mobile screens
+              height={isMobile ? 200 : 300} // Adjust height for mobile screens
+              title={`Image ${item.id}`}
+            />
+          </ImageListItem>
+        ))}
+      </ImageList>
+
+      {/* Optional: Arrow navigation for the slider */}
+      {!isMobile && (
+        <Box sx={{ display: "flex", justifyContent: "space-between", width: "100%" }}>
+          <IconButton>
+            <ArrowBack sx={{ fontSize: 40, color: "white" }} />
+          </IconButton>
+          <IconButton>
+            <ArrowForward sx={{ fontSize: 40, color: "white" }} />
+          </IconButton>
+        </Box>
+      )}
     </div>
   );
 };
+
 export default HomeProductsList;
