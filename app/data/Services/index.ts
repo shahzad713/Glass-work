@@ -4,7 +4,7 @@ export const servicesList: servcicesListType[] = [
   {
     title: "Design and Construct",
     description: `
-         Alumtec Glazing solution Inc. offer a complete range of engineering
+         Labbyk Glass And Aluminium offer a complete range of engineering
         services to our client include the initial design that offering most
         economical solutions and meet or exceed the building codes.
         <br />
@@ -18,7 +18,7 @@ export const servicesList: servcicesListType[] = [
   {
     title: "Fabrication & Engineering",
     description: `
-         Alumtec Glazing solution Inc. offer a complete range of engineering services to our client include the initial design that offering most economical solutions and meet or exceed the building codes.
+         Labbyk Glass And Aluminium offer a complete range of engineering services to our client include the initial design that offering most economical solutions and meet or exceed the building codes.
            <br/>
 With our professional and expert designers, we provide to our client a complete detailed shop drawings, production drawings and as build drawings.
       `,
@@ -29,7 +29,7 @@ With our professional and expert designers, we provide to our client a complete 
   {
     title: "Logistics and Installation",
     description: `
-          Alumtec Glazing solution Inc. offer a complete range of engineering services to our client include the initial design that offering most economical solutions and meet or exceed the building codes.
+          Labbyk Glass And Aluminium offer a complete range of engineering services to our client include the initial design that offering most economical solutions and meet or exceed the building codes.
             <br/>
 With our professional and expert designers, we provide to our client a complete detailed shop drawings, production drawings and as build drawings.
       `,
@@ -39,7 +39,7 @@ With our professional and expert designers, we provide to our client a complete 
   {
     title: "Supplly Only",
     description: `
-          Alumtec Glazing solution Inc. offer a complete range of engineering services to our client include the initial design that offering most economical solutions and meet or exceed the building codes.
+          Labbyk Glass And Aluminium offer a complete range of engineering services to our client include the initial design that offering most economical solutions and meet or exceed the building codes.
             <br/>
 With our professional and expert designers, we provide to our client a complete detailed shop drawings, production drawings and as build drawings.
       `,

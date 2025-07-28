@@ -23,9 +23,7 @@ const navItems = [
   { name: "About Us", link: "/about" },
   { name: "Services", link: "/services" },
   { name: "Our Products", link: "/products" },
-  { name: "Career", link: "/career" },
   { name: "Contact us", link: "/contact" },
-  { name: "Blog", link: "/blog" },
   { name: "Call us", link: "/call" },
 ];
 
@@ -38,7 +36,7 @@ const MobileNavbar = ({
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        ALUM TEC
+        Labbyak Glass and Aluminium
       </Typography>
       <Divider />
       <List>

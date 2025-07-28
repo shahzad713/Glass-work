@@ -1,13 +1,13 @@
 {
     "@context": "http://schema.org",
     "@type": "Organization",
-    "name": "Alumtec",
-    "url": "https://www.alumtec.ca/",
-    "logo": "https://www.alumtec.ca/logo.png",
+    "name": "Labbyk Glass And Aluminium",
+    "url": "https://www.labbykaglassandaluminium.com/",
+    "logo": "https://www.labbykaglassandaluminium.com/logo.png",
     "contactPoint": {
         "@type": "ContactPoint",
-        "email": "bilalmohib7896@gmail.com",
-        "telephone": "+19055088777",
+        "email": "asifmunir062@gmail.com",
+        "telephone": "+923020999713",
         "contactType": "customer service"
     }
 }

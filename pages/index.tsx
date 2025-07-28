@@ -20,7 +20,7 @@ const Home = () => {
         <title> Labbyk Glass| Expert Glazing, Aluminum, and Glass Solutions</title>
         <meta
           name="description"
-          content="Discover Labbyk Glass and Aluminium's expert glazing solutions, including aluminum curtain walls, windows, doors, glass installations, and more. Serving Pakistan, Lahore, and beyond with premium services."
+          content="Discover Labbyk Glass And Aluminium's expert glazing solutions, including aluminum curtain walls, windows, doors, glass installations, and more. Serving Pakistan, Lahore, and beyond with premium services."
         />
         <meta
           name="keywords"

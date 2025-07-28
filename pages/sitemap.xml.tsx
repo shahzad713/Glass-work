@@ -8,7 +8,7 @@ const pages: { id: number; slug: string }[] = [
     { id: 7, slug: 'blog' }
 ];
 
-const SITE_URL = 'https://www.alumtec.ca';
+const SITE_URL = 'https://www.labbykaglassandaluminium.com';
 
 function generateSiteMap(pages: { id: number; slug: string }[]) {
     const currentDate = new Date().toISOString().split('T')[0]; // Get current date in YYYY-MM-DD format

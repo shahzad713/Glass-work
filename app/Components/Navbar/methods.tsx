@@ -1,19 +1,24 @@
+
+
 import CallIcon from "@mui/icons-material/Call";
 import MenuIcon from "@mui/icons-material/Menu";
 import Image from "next/image";
 import Router from "next/router";
+import Link from "next/link";
 import {
   DesktopNavbarProps,
   NavItemContainerProps,
   NavbarProps,
 } from "./types";
 
-import { AppBar, IconButton, Link, Toolbar } from "@mui/material";
+import { AppBar, IconButton, Toolbar } from "@mui/material";
 
 import styles from "./style.module.css";
 
 export const menuClick = (link: any) => {
-  Router.push(link).then(() => window.scrollTo(0, 0));
+  // Remove the .then() chain to make navigation faster
+  Router.push(link);
+  // The scroll will reset automatically on page change
 };
 
 export const NavItemContainer = ({
@@ -25,14 +30,15 @@ export const NavItemContainer = ({
       {navItems.map((item, index) => (
         <Link
           key={index}
+          href={item.link}
+          prefetch={true}
           className={`${styles.navItem} no-underline hover:no-underline`}
-          onClick={() => {
-            if (item.name !== "Call us") {
-              menuClick(item.link);
-            } else {
-              // Call on phone number using href link like the phone number gets open in mobile
-              window.open("tel:+19055088777");
+          onClick={(e) => {
+            if (item.name === "Call us") {
+              e.preventDefault();
+              window.open("tel:+923020999713");
             }
+            // For other links, let Next.js Link handle the navigation
           }}
         >
           {item.name === "Call us" ? (

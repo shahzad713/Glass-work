@@ -8,7 +8,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <title>AlumTec</title>
+      <title>Labbyk Glass And Aluminium</title>
       <link rel="icon" href="/logo.jxr" type="image/x-icon"></link>
       <script type="application/ld+json">{JSON.stringify(organization)}</script>
       <body>
