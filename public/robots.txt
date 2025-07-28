@@ -3,4 +3,4 @@ Allow: /
 Disallow: /_next/
 Disallow: /api/
 Disallow: /public/
-Sitemap: http://alumtec.ca/sitemap.xml
+Sitemap: https://labbykaglassandaluminium.com/sitemap.xml

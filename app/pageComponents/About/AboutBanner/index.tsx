@@ -13,13 +13,13 @@ const AboutBanner = () => {
         DOORS TO REFLECT YOUR STYLE AND TASTE
       </h5>
       <p className="absolute top-0 left-0 right-0 bottom-0 mt-[calc(170px+80px+120px)] sm:mt-[calc(220px+80px+130px)] lg:mt-[calc(300px+20px+50px)] 2xl:mt-[calc(300px+80px+90px)] opacity-80 text-[18px] leading-7 font-light font-sharp tracking-[0.54px] w-10/12 text-center mx-auto text-white pb-[120px] pt-3 hidden sm:block">
-        Alumtec Glazing solution Inc. is a leading aluminum and glass solutions
+        Labbyk Glass And Aluminium is a leading aluminum and glass solutions
         provider offering a wide range of aluminum and glass products and
         services.We specialize in design, fabrication and installation of
         aluminum windows, woors and curtain wall for commercial and residential
         applications. We are committed towards quality and customer service.
         Quality is not just another goal, it is our basic strategy for survival
-        and future as it’s our journey to the Total Quality Management.
+        and future as it's our journey to the Total Quality Management.
       </p>
       <div className="mt-[calc(140px)] w-fit mx-auto sm:hidden block">
         <Button className="w-[156px] shadow-md rounded-[5px] normal-case h-[46px] bg-[#f2f2f2] hover:bg-[#10146f] text-black hover:text-[#f2f2f2] hover:border hover:border-[0.1] hover:border-solid text-lg">

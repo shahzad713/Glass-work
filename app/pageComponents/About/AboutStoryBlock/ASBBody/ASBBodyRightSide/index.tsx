@@ -17,7 +17,7 @@ const ASBBodyRightSide = () => {
         <HSBHeader />
       </div>
       <div className={styles.servicesDescription}>
-        Alumtec Glazing solution Inc. offer a complete range of engineering
+        Labbyk Glass And Aluminium offer a complete range of engineering
         services to our client include the initial design that offering most
         economical solutions and meet or exceed the building codes.
         <br />

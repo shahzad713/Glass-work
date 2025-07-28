@@ -144,7 +144,7 @@ const ContactForm = () => {
           setCountryId(null);
           setMessage("");
           toast(
-            "Thank you so much for contacting AlumTec. We will get back to you soon through 📧 email.",
+            "Thank you so much for contacting Labbyk Glass And Aluminium. We will get back to you soon through 📧 email.",
             {
               theme: "dark",
             }

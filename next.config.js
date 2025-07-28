@@ -8,7 +8,7 @@ const nextConfig = {
       "images.unsplash.com",
       "s.yimg.com",
       "generation-sessions.s3.amazonaws.com",
-      "alumtec.ca",
+      "labbykaglassandaluminium.com",
       "example.com",
       "img.freepik.com",
       "wpassets.graana.com",
