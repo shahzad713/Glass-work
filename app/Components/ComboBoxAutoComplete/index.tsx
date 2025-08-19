@@ -2,7 +2,12 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
-import { BlogDataTypes } from "@/app/pageComponents/Blog/BlogBody/types";
+
+type BlogDataTypes = {
+  title: string;
+  coverImage?: string;
+  // add other fields as needed
+};
 
 interface ComboBoxAutoCompleteProps {
   label: string;
