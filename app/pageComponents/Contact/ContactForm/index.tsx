@@ -1,7 +1,5 @@
 import { countries } from "@/app/data/Common";
-import { db } from "@/firebase/index";
 import { Autocomplete, Box, Button, Grid, TextField } from "@mui/material";
-import { addDoc, collection } from "firebase/firestore";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
@@ -112,30 +110,8 @@ const ContactForm = () => {
         currentTime: dateTime,
       };
 
-      //For storing all ads i.e to show at main page
-      // firebase
-      //   .database()
-      //   .ref(`ContactUs/`)
-      //   .push(Data)
-      //   .then(() => {
-      //     setName("");
-      //     setEmail("");
-      //     setComapnyName("");
-      //     setCountryId(null);
-      //     setMessage("");
-      //     toast(
-      //       "Thank you so much for contacting AlumTec. We will get back to you soon through 📧 email.",
-      //       {
-      //         theme: "dark",
-      //       }
-      //     );
-      //   })
-      //   .catch((error) => {
-      //     console.log(error);
-      //     toast.error("Network Error while submitting the contact form");
-      //   });
-
-      //For storing all ads i.e to show at main page
+      // Comment out Firestore submission
+      /*
       try {
         await addDoc(collection(db, "ContactUs"), Data).then(() => {
           setName("");
@@ -154,6 +130,19 @@ const ContactForm = () => {
         alert(err);
         toast.error(`Error ${err.message || err || "Unknown Error"}`);
       }
+      */
+      // You can show a success message directly for now:
+      setName("");
+      setEmail("");
+      setComapnyName("");
+      setCountryId(null);
+      setMessage("");
+      toast(
+        "Thank you so much for contacting Labbyk Glass And Aluminium. We will get back to you soon through 📧 email.",
+        {
+          theme: "dark",
+        }
+      );
     } else {
       toast.error("Please fill all the required fields");
     }
